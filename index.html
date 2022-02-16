@@ -11,71 +11,77 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1 class="logo">Navy Logo</h1>
-            <ul class="nav-links">
-                <li><a href="#header-link-one">header link one</a></li>
-                <li><a href="#header-link-two">header link two</a></li>
-                <li><a href="#header-link-three">header link three</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <div class="sides">
-            <div class="left-side">
-                <h2>Life is awesome</h2>
-                <p>"The healthy human mind doesn't wake up in the morning thinking that this is its last day on earth. But I think that's a luxury, not a curse. Knowing you're close﻿ to the end is a kind of freedom. Good time to take... inventory. Outgunned. Outnumbered. Out of our minds. On a suicide mission. But the sand and rocks here stained with thousands of years of warfare, they will remember us. For this. Because out of all our vast array of nightmares, this is the one we choose for ourselves. We go forward like a breath exhaled from the Earth. With vigor in our hearts and one goal in sight: We. Will. Kill him." 
-                    <br> <br>
-                    — Captain Cost before Just Like Old Times leaving the vocal record of their truth.</p>
-                <button class="join">Join the Navy</button>
-            </div>
-            <div class="right-side"></div>
-        </div>
-    </section>
-    <section class="info">
-        <div class="info-card-wrapper">
-            <h2>Some random information.</h2>   
-            <div class="info-cards">
-                <div class="card">
-                    <div class="img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="img"></div>
-                    <p>this is some subtext under an illustration or image</p>
+    <div class="hero-background">
+        <header id="header">
+            <nav>
+                <div class="logo">Modern Warfare</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#inspiration">Inspiration</a></li>
+                    <li><a href="#join">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="content">
+                    <h2>No Man Fights Alone. <br> In the war that changes the world, <br>
+                        no one fights alone.</h2>
+                    <button class="join">Join the Forces</button>
                 </div>
             </div>
-        </div>
+        </section>
+    </div>
+    <section id="about">
+
+            <h2>Special Forces</h2>
+            <div class="block-wrapper">
+                <div class="about-block">
+                    <img src="./img/john-price.jpg" alt="John Price">
+                    <h3>John Price</h3>
+                    <p>Special forces Captain</p>
+                </div>
+                
+                <div class="about-block">
+                    <img src="./img/ghost.png" alt="Ghost">
+                    <h3>Simon "Ghost" Riley</h3>
+                    <p>Special forces operator</p>
+                </div>
+
+                <div class="about-block">
+                    <img src="./img/alex-mason.png" alt="Alex Mason">
+                    <h3>Alex Mason</h3>
+                    <p>Force Recon Captain</p> 
+                </div>
+
+                <div class="about-block">
+                    <img src="./img/soap.png" alt="Soap">
+                    <h3>Soap MacTavish</h3>
+                    <p>Sniper and demolitions expert.</p>
+                </div>
+            </div>
     </section>
-    <section class="quote">
+    <section id="inspiration">
         <div class="quote-text">
-            <p>This is an inspiring quote, or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe people will actually read it. Who knows?
-                All I know is that it looks nice.
+            <p>"The healthy human mind doesn't wake up in the morning thinking that this is its last day on earth. But I think that's a luxury, not a curse. 
+                Knowing you're close﻿ to the end is a kind of freedom. Good time to take... inventory. Outgunned. Outnumbered. Out of our minds. On a suicide mission. 
+                But the sand and rocks here stained with thousands of years of warfare, they will remember us. For this. Because out of all our vast array of nightmares, this is the one we choose for ourselves. 
+                We go forward like a breath exhaled from the Earth. With vigor in our hearts and one goal in sight: We. Will. Kill him."
             </p>
-            <h3>-Thor, God of Thunder</h3>
+            <h3>— Captain Price before Just Like Old Times leaving the vocal record of their truth.</h3>
         </div>
     </section>
-    <section class="call-to-arms">
+    <section id="join">
         <div class="sub-call">
             <div class="text">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
+                <h3>Stop browsing, Comrade! <br> We Must Fight!</h3>
+                <button class="join">Join the Forces</button>
             </div>
-            <button class="sign-up">Sign Up</button>
+            
         </div>
     </section>
     <footer>
-        <h3>Copyright &copy; The Odin Project 2022</h3>
+        <h3>The Odin Project 2022. All content belongs to Activision. <a href="#header">GO UP</a></h3>
     </footer>
 </body>
 </html>

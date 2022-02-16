@@ -15,7 +15,6 @@ html {
 header {
     height: 5vh;
     width: 100%;
-    background: #1f2937;
 }
 
 nav {
@@ -28,147 +27,171 @@ nav {
 }
 
 .logo {
-    font-size: 2.4rem;
-    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(rgba(211, 129, 52, 1), rgba(235, 173, 38, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
 }
 
 header ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 a {
-    font-size: 1.8rem;
-    color: #e5e7eb;
+    font-size: 24px;
+    color: rgba(235, 173, 38, 0.85);
     text-decoration: none;
 }
 
 /* Hero Section */
 
+.hero-background {
+    background: url('./img/cap-smoking.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .hero {
     width: 100%;
-    height: 70vh;
-    background: #1f2937;
+    height: 95vh;
+    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.sides {
+.hero-content {
     width: 70vw;
     height: 45vh;
-    display: flex;
-}
-
-.left-side {
-    flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.left-side h2 {
+.content h2 {
     font-size: 4.8rem;
     font-weight: extra-bold;
-    color: #f9faf8;
+    /*color: #d38134;*/
+    color: white;
+    background: linear-gradient(rgba(211, 129, 52, 0.85), rgba(235, 173, 38, 0.85));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 20px 0;
 }
 
-.left-side p {
+.content p {
+    margin: 20px 0;
     font-size: 1.8rem;
     color: #cfd1d4;
 }
 
 .join {
+    margin: 40px -18px;
     flex-shrink: 0;
-    width: 150px;
+    width: 220px;
     padding: 15px;
-    font-size: 18px;
-    background-color: #3882f6;
-    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    background: transparent;
+    color: rgba(235, 173, 38, 1);
     border: none;
     border-radius: 15px;
     cursor: pointer;
 }
 
 
-.right-side {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    background: url('./img/captain-price.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    border-radius: 20px;
-}
+/* About Section */
 
-/* Info Section */
-
-.info {
-    height: 60vh;
+#about {
+    height: 98vh;
     display: flex;
     flex-direction: column;
-}
-
-.info h2 {
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1f2937;
     text-align: center;
-    margin-top: 70px;
-}
-
-.info p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.info-card-wrapper {
-    width: 70vw;
-    margin: 0 auto;
-}
-
-.info-cards {
-    margin-top: 80px;
-    display: flex;
     justify-content: center;
-    gap: 100px;
+    background: linear-gradient(rgba(211, 129, 52, 1), rgba(235, 173, 38, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.card {
-    width: 180px;
-    text-align: center;
+.block-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    background: linear-gradient(rgba(255, 156, 64, 0.85), rgba(250, 184, 42, 0.85));
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
-.card .img {
-    width: 180px;
-    height: 180px;
-    border: 3px solid #3882f6;
-    border-radius: 15px;
+.about-block {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+#about h2 {
+    font-size: 54px;
+    padding-bottom: 90px;
+    color: #000;
+}
+
+#about img {
+    width: 225px;
+    height: 300px;
+    border-radius: 20px;  
+}
+
+#about h3 {
+    font-size: 36px;
+    color: #000;  
+}
+
+#about p {
+    font-size: 24px;
+    color: #000;
+}
+
 
 /* Quote Section*/
 
-.quote {
-    height: 50vh;
-    background: #e5e7eb;
+#inspiration {
+    height: 105vh;
+    background: url('./img/price-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .quote-text {
-    width: 40vw;
+    width: 60vw;
+    margin-bottom: 160px;
+    color: #fff;
+    background: linear-gradient(rgba(248, 121, 2, 0.85), rgba(235, 173, 38, 0.85));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .quote-text p {
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
-    color: #1f2937;
+    font-weight: 400;
 }
 
 .quote-text h3 {
@@ -180,8 +203,9 @@ a {
 
 /* Call to Action whatever section */
 
-.call-to-arms {
-    height: 40vh;
+#join {
+    height: 100vh;
+    background: url('./img/call-to-arms.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,39 +214,21 @@ a {
 .sub-call {
     height: 50%;
     width: 70%;
-    background: #3882f6;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e5e7eb;
+    font-size: 48px;
+    background: linear-gradient(rgba(248, 121, 2, 1), rgba(235, 173, 38, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
-
-.sub-call h3 {
-    font-size: 24px;
-}
-
-.sub-call p {
-    font-size: 18px;
-}
-
 
 .sub-call .text {
     margin-right: 100px;
 }
 
-.sub-call .sign-up {
-    display: block;
-    margin-left: 100px;
-    padding: 10px 34px;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    background: transparent;
-    font-size: 16px;
-    font-weight: 600;
-    color: #e5e7eb;
-    cursor: pointer ;
-}
 
 /* Footer LOL */
 
@@ -237,5 +243,17 @@ footer {
 footer h3 {
     color: #e5e7eb;
     font-size: 16px;
+}
+
+footer a {
+    font-size: 18px;
+}
+
+.join:hover {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
 }
 

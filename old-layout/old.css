@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header Section */
+
+header {
+    height: 5vh;
+    width: 100%;
+    background: #1f2937;
+}
+
+nav {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 2.4rem;
+    color: #f9faf8;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-size: 1.8rem;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sides {
+    width: 70vw;
+    height: 45vh;
+    display: flex;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-side h2 {
+    font-size: 4.8rem;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.left-side p {
+    font-size: 1.8rem;
+    color: #cfd1d4;
+}
+
+.join {
+    flex-shrink: 0;
+    width: 150px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.right-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: url('./img/captain-price.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 20px;
+}
+
+/* Info Section */
+
+.info {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.info p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card-wrapper {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.info-cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    width: 180px;
+    text-align: center;
+}
+
+.card .img {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+/* Quote Section*/
+
+.quote {
+    height: 50vh;
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 40vw;
+}
+
+.quote-text p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-text h3 {
+    font-size: 24px;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+/* Call to Action whatever section */
+
+.call-to-arms {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-call {
+    height: 50%;
+    width: 70%;
+    background: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.sub-call h3 {
+    font-size: 24px;
+}
+
+.sub-call p {
+    font-size: 18px;
+}
+
+
+.sub-call .text {
+    margin-right: 100px;
+}
+
+.sub-call .sign-up {
+    display: block;
+    margin-left: 100px;
+    padding: 10px 34px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e5e7eb;
+    cursor: pointer ;
+}
+
+/* Footer LOL */
+
+footer {
+    height: 10vh;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
